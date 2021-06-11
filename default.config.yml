@@ -1,4 +1,6 @@
 ---
+homebrew_cask_apps:
+  - 1password
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
