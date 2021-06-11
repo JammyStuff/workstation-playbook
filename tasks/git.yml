@@ -1,0 +1,18 @@
+---
+- name: Configure git author name
+  community.general.git_config:
+    name: user.name
+    scope: global
+    value: "{{ git_name }}"
+  when: git_name is defined
+- name: Configure git author email
+  community.general.git_config:
+    name: user.email
+    scope: global
+    value: "{{ git_email }}"
+  when: git_email is defined
+- name: Configure git pretty format
+  community.general.git_config:
+    name: format.pretty
+    scope: global
+    value: fuller

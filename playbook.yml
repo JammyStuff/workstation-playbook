@@ -2,8 +2,14 @@
 - hosts: all
   vars_files:
     - default.config.yml
+  pre_tasks:
+    - name: Include configuration
+      include_vars: "{{ item }}"
+      with_fileglob:
+        - "config.yml"
   roles:
     - role: elliotweiser.osx-command-line-tools
     - role: geerlingguy.mac.homebrew
   tasks:
+    - import_tasks: tasks/git.yml
     - import_tasks: tasks/vscode.yml
