@@ -1,6 +1,8 @@
 ---
 homebrew_cask_apps:
   - 1password
+  - font-fira-code
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - homebrew/cask-fonts

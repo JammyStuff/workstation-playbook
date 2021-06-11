@@ -12,4 +12,5 @@
     - role: geerlingguy.mac.homebrew
   tasks:
     - import_tasks: tasks/git.yml
+    - import_tasks: tasks/terminal.yml
     - import_tasks: tasks/vscode.yml

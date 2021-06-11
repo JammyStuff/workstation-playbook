@@ -1,0 +1,16 @@
+---
+- name: Install iTerm
+  community.general.homebrew_cask:
+    name: iterm2
+    state: present
+- name: Install antigen
+  community.general.homebrew:
+    name: antigen
+    state: present
+- name: Configure zsh
+  ansible.builtin.copy:
+    src: zshrc
+    dest: "{{ ansible_user_dir }}/.zshrc"
+    owner: "{{ ansible_user_uid }}"
+    group: "{{ ansible_user_gid }}"
+    mode: 0600
