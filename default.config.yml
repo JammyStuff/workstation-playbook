@@ -1,4 +1,47 @@
 ---
+dockitems_persist:
+  - name: Safari
+    path: /Applications/Safari.app
+    pos: 1
+  - name: iTerm
+    path: /Applications/iTerm.app
+    pos: 2
+  - name: Visual Studio Code
+    path: /Applications/Visual Studio Code.app
+    pos: 3
+  - name: Mail
+    path: /System/Applications/Mail.app
+    pos: 4
+  - name: Calendar
+    path: /System/Applications/Calendar.app
+    pos: 5
+  - name: Messages
+    path: /System/Applications/Messages.app
+    pos: 6
+  - name: FaceTime
+    path: /System/Applications/FaceTime.app
+    pos: 7
+  - name: Music
+    path: /System/Applications/Music.app
+    pos: 8
+  - name: App Store
+    path: /System/Applications/App Store.app
+    pos: 9
+  - name: System Preferences
+    path: /System/Applications/System Preferences.app
+dockitems_remove:
+  - Launchpad
+  - Maps
+  - Photos
+  - Contacts
+  - Reminders
+  - Notes
+  - TV
+  - Podcasts
+  - News
+  - Keynote
+  - Numbers
+  - Pages
 # git_email: user@example.com
 # git_name: Example User
 homebrew_cask_apps:

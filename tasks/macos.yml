@@ -1,0 +1,4 @@
+---
+- name: Configure dock
+  import_role:
+    name: geerlingguy.mac.dock
