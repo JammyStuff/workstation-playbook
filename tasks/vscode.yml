@@ -11,3 +11,18 @@
     owner: root
     group: wheel
     state: link
+- name: Install requirements for Ansible extension
+  ansible.builtin.pip:
+    name: ansible-lint[yamllint]
+    executable: pip3
+    state: present
+- name: Install Visual Studio Code extensions
+  import_role:
+    name: gantsign.visual-studio-code-extensions
+- name: Configure Visual Studio Code
+  ansible.builtin.copy:
+    src: vscode.json
+    dest: "{{ ansible_user_dir }}/Library/Application Support/Code/User/settings.json"
+    owner: "{{ ansible_user_uid }}"
+    group: "{{ ansible_user_gid }}"
+    mode: 0644

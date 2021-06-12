@@ -1,4 +1,6 @@
 ---
+# git_email: user@example.com
+# git_name: Example User
 homebrew_cask_apps:
   - 1password
   - font-fira-code
@@ -6,3 +8,8 @@ homebrew_taps:
   - homebrew/core
   - homebrew/cask
   - homebrew/cask-fonts
+# users:
+#   - username: user
+#     visual_studio_code_extensions:
+#       - ms-python.python
+#       - zbr.vscode-ansible
