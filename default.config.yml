@@ -51,6 +51,39 @@ homebrew_taps:
   - homebrew/core
   - homebrew/cask
   - homebrew/cask-fonts
+macos_defaults:
+  - domain: NSGlobalDomain
+    key: NSDocumentSaveNewDocumentsToCloud
+    value: false
+    type: bool
+  - domain: com.apple.finder
+    key: NewWindowTarget
+    value: PfHm
+    type: string
+  - domain: NSGlobalDomain
+    key: AppleShowAllExtensions
+    value: true
+    type: bool
+  - domain: com.apple.dock
+    key: tilesize
+    value: 48
+    type: int
+  - domain: com.apple.dock
+    key: autohide
+    value: true
+    type: bool
+  - domain: com.apple.dock
+    key: show-recents
+    value: false
+    type: bool
+  - domain: com.apple.dock
+    key: mru-spaces
+    value: false
+    type: bool
+  - domain: com.apple.TextEdit
+    key: RichText
+    value: false
+    type: bool
 # users:
 #   - username: user
 #     visual_studio_code_extensions:

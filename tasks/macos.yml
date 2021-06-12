@@ -2,3 +2,11 @@
 - name: Configure dock
   import_role:
     name: geerlingguy.mac.dock
+- name: Configure macOS defaults
+  community.general.osx_defaults:
+    domain: "{{ item.domain }}"
+    key: "{{ item.key }}"
+    type: "{{ item.type }}"
+    value: "{{ item.value }}"
+    state: present
+  loop: "{{ macos_defaults }}"
