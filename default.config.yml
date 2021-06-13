@@ -18,17 +18,24 @@ dockitems_persist:
   - name: Messages
     path: /System/Applications/Messages.app
     pos: 6
+  - name: Signal
+    path: /Applications/Signal.app
+    pos: 7
+  - name: Element
+    path: /Applications/Element.app
+    pos: 8
   - name: FaceTime
     path: /System/Applications/FaceTime.app
-    pos: 7
+    pos: 9
   - name: Music
     path: /System/Applications/Music.app
-    pos: 8
+    pos: 10
   - name: App Store
     path: /System/Applications/App Store.app
-    pos: 9
+    pos: 11
   - name: System Preferences
     path: /System/Applications/System Preferences.app
+    pos: 12
 dockitems_remove:
   - Launchpad
   - Maps
@@ -47,8 +54,10 @@ dockitems_remove:
 homebrew_cask_apps:
   - 1password
   - amethyst
+  - element
   - font-fira-code
   - notion
+  - signal
   - vlc
 homebrew_taps:
   - homebrew/core
