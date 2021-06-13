@@ -46,6 +46,7 @@ dockitems_remove:
 # git_name: Example User
 homebrew_cask_apps:
   - 1password
+  - amethyst
   - font-fira-code
   - notion
   - vlc
