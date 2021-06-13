@@ -1,0 +1,8 @@
+---
+- name: Configure SSH
+  ansible.builtin.copy:
+    src: ssh_config
+    dest: "{{ ansible_user_dir }}/.ssh/config"
+    owner: "{{ ansible_user_uid }}"
+    group: "{{ ansible_user_gid }}"
+    mode: 0644

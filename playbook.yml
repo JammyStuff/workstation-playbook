@@ -13,6 +13,7 @@
     - role: geerlingguy.mac.dock
   tasks:
     - import_tasks: tasks/git.yml
+    - import_tasks: tasks/ssh.yml
     - import_tasks: tasks/terminal.yml
     - import_tasks: tasks/vscode.yml
     - import_tasks: tasks/macos.yml
