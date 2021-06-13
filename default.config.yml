@@ -47,6 +47,8 @@ dockitems_remove:
 homebrew_cask_apps:
   - 1password
   - font-fira-code
+  - notion
+  - vlc
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
