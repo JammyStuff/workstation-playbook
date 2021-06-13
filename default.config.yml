@@ -90,5 +90,6 @@ macos_defaults:
 # users:
 #   - username: user
 #     visual_studio_code_extensions:
+#       - eamodio.gitlens
 #       - ms-python.python
 #       - zbr.vscode-ansible
