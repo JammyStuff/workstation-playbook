@@ -16,3 +16,23 @@
     name: format.pretty
     scope: global
     value: fuller
+- name: Configure vscode difftool cmd
+  community.general.git_config:
+    name: difftool.vscode.cmd
+    scope: global
+    value: code --wait --diff $LOCAL $REMOTE
+- name: Configure vscode as the diff tool
+  community.general.git_config:
+    name: diff.tool
+    scope: global
+    value: vscode
+- name: Configure vscode mergetool cmd
+  community.general.git_config:
+    name: mergetool.vscode.cmd
+    scope: global
+    value: code --wait $MERGED
+- name: Configure vscode as the merge tool
+  community.general.git_config:
+    name: merge.tool
+    scope: global
+    value: vscode
