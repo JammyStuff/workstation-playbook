@@ -1,41 +1,44 @@
 ---
 dockitems_persist:
+  - name: Firefox Developer Edition
+    path: /Applications/Firefox Developer Edition.app
+    pos: 1
   - name: Safari
     path: /Applications/Safari.app
-    pos: 1
+    pos: 2
   - name: iTerm
     path: /Applications/iTerm.app
-    pos: 2
+    pos: 3
   - name: Visual Studio Code
     path: /Applications/Visual Studio Code.app
-    pos: 3
+    pos: 4
   - name: Mail
     path: /System/Applications/Mail.app
-    pos: 4
+    pos: 5
   - name: Calendar
     path: /System/Applications/Calendar.app
-    pos: 5
+    pos: 6
   - name: Messages
     path: /System/Applications/Messages.app
-    pos: 6
+    pos: 7
   - name: Signal
     path: /Applications/Signal.app
-    pos: 7
+    pos: 8
+  - name: WhatsApp
+    path: /Applications/WhatsApp.app
+    pos: 9
   - name: Element
     path: /Applications/Element.app
-    pos: 8
+    pos: 10
   - name: FaceTime
     path: /System/Applications/FaceTime.app
-    pos: 9
+    pos: 11
   - name: Music
     path: /System/Applications/Music.app
-    pos: 10
-  - name: App Store
-    path: /System/Applications/App Store.app
-    pos: 11
+    pos: 12
   - name: System Preferences
     path: /System/Applications/System Preferences.app
-    pos: 12
+    pos: 13
 dockitems_remove:
   - Launchpad
   - Maps
@@ -49,20 +52,24 @@ dockitems_remove:
   - Keynote
   - Numbers
   - Pages
+  - App Store
 # git_email: user@example.com
 # git_name: Example User
 homebrew_cask_apps:
   - 1password
   - amethyst
   - element
+  - firefox-developer-edition
   - font-fira-code
   - notion
   - signal
   - vlc
+  - whatsapp
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
   - homebrew/cask-fonts
+  - homebrew/cask-versions
 macos_defaults:
   - domain: NSGlobalDomain
     key: NSDocumentSaveNewDocumentsToCloud
