@@ -107,9 +107,7 @@ macos_defaults:
     key: RichText
     value: false
     type: bool
-# users:
-#   - username: user
-#     visual_studio_code_extensions:
-#       - eamodio.gitlens
-#       - ms-python.python
-#       - zbr.vscode-ansible
+visual_studio_code_extensions:
+  - eamodio.gitlens
+  - ms-python.python
+  - zbr.vscode-ansible

@@ -19,6 +19,10 @@
 - name: Install Visual Studio Code extensions
   import_role:
     name: gantsign.visual-studio-code-extensions
+  vars:
+    users:
+      - username: "{{ ansible_user_id }}"
+        visual_studio_code_extensions: "{{ visual_studio_code_extensions }}"
 - name: Configure Visual Studio Code
   ansible.builtin.copy:
     src: vscode.json
