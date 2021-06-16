@@ -3,6 +3,12 @@ export PATH=$HOME/Library/Python/3.8/bin:$PATH
 
 export VISUAL='code --wait'
 
+if [[ -d $HOME/.zshrc.d ]]; then
+    for file in $HOME/.zshrc.d/*; do
+        source "$file"
+    done
+fi
+
 source $(brew --prefix)/share/antigen/antigen.zsh
 
 antigen theme spaceship-prompt/spaceship-prompt

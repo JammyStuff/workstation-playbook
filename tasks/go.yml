@@ -1,0 +1,12 @@
+---
+- name: Install go
+  community.general.homebrew:
+    name: go
+    state: present
+- name: Configure go
+  ansible.builtin.copy:
+    src: zshrc_go
+    dest: "{{ ansible_user_dir }}/.zshrc.d/go"
+    owner: "{{ ansible_user_uid }}"
+    group: "{{ ansible_user_gid }}"
+    mode: 0600

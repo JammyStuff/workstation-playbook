@@ -7,6 +7,13 @@
   community.general.homebrew:
     name: antigen
     state: present
+- name: Create zshrc.d directory
+  ansible.builtin.file:
+    path: "{{ ansible_user_dir }}/.zshrc.d"
+    owner: "{{ ansible_user_uid }}"
+    group: "{{ ansible_user_gid }}"
+    mode: 0700
+    state: directory
 - name: Configure zsh
   ansible.builtin.copy:
     src: zshrc

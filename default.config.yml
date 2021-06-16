@@ -109,5 +109,6 @@ macos_defaults:
     type: bool
 visual_studio_code_extensions:
   - eamodio.gitlens
+  - golang.go
   - ms-python.python
   - zbr.vscode-ansible
