@@ -115,4 +115,5 @@ visual_studio_code_extensions:
   - eamodio.gitlens
   - golang.go
   - ms-python.python
+  - vscodevim.vim
   - zbr.vscode-ansible
