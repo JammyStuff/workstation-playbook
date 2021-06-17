@@ -61,6 +61,7 @@ dockitems_remove:
 homebrew_cask_apps:
   - 1password
   - amethyst
+  - bettertouchtool
   - element
   - firefox-developer-edition
   - font-fira-code
