@@ -8,5 +8,13 @@
     "editor.formatOnSave": true,
     "workbench.startupEditor": "newUntitledFile",
     "gitlens.defaultDateFormat": "MMMM DD, YYYY HH:mm",
-    "gitlens.defaultTimeFormat": "HH:mm"
+    "gitlens.defaultTimeFormat": "HH:mm",
+    "yaml.customTags": [
+        "!encrypted/pkcs1-oaep scalar",
+        "!vault scalar"
+    ],
+    "redhat.telemetry.enabled": false,
+    "python.showStartPage": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Winter is Coming (Dark Black - No Italics)"
 }

@@ -114,6 +114,8 @@ mas_installed_apps:
 visual_studio_code_extensions:
   - eamodio.gitlens
   - golang.go
+  - johnpapa.winteriscoming
   - ms-python.python
+  - pkief.material-icon-theme
   - vscodevim.vim
   - zbr.vscode-ansible
