@@ -104,8 +104,20 @@ macos_defaults:
     key: mru-spaces
     value: false
     type: bool
+  - domain: NSGlobalDomain
+    key: InitialKeyRepeat
+    value: 20
+    type: int
+  - domain: NSGlobalDomain
+    key: KeyRepeat
+    value: 2
+    type: int
   - domain: com.apple.TextEdit
     key: RichText
+    value: false
+    type: bool
+  - domain: com.microsoft.VSCode
+    key: ApplePressAndHoldEnabled
     value: false
     type: bool
 mas_installed_apps:
