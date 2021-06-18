@@ -16,5 +16,6 @@
     "redhat.telemetry.enabled": false,
     "python.showStartPage": false,
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Winter is Coming (Dark Black - No Italics)"
+    "workbench.colorTheme": "Winter is Coming (Dark Black - No Italics)",
+    "vim.easymotion": true
 }
