@@ -66,10 +66,14 @@ homebrew_cask_apps:
   - firefox-developer-edition
   - font-fira-code
   - notion
+  - postman
   - signal
   - slack
   - vlc
   - whatsapp
+homebrew_installed_packages:
+  - ffmpeg
+  - youtube-dl
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
