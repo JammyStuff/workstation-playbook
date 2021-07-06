@@ -62,6 +62,7 @@ homebrew_cask_apps:
   - 1password
   - amethyst
   - bettertouchtool
+  - docker
   - element
   - firefox-developer-edition
   - font-fira-code
