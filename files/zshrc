@@ -1,4 +1,6 @@
-export PATH=/opt/homebrew/bin:$PATH
+if [[ -d /opt/homebrew/bin ]]; then
+    export PATH=/opt/homebrew/bin:$PATH
+fi
 export PATH=$HOME/Library/Python/3.8/bin:$PATH
 
 export VISUAL='code --wait'
