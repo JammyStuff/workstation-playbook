@@ -11,6 +11,11 @@
     scope: global
     value: "{{ git_email }}"
   when: git_email is defined
+- name: Configure git default branch name
+  community.general.git_config:
+    name: init.defaultBranch
+    scope: global
+    value: main
 - name: Configure git pretty format
   community.general.git_config:
     name: format.pretty
