@@ -65,6 +65,7 @@ homebrew_cask_apps:
   - bettertouchtool
   - docker
   - element
+  - figma
   - firefox-developer-edition
   - font-fira-code
   - notion
