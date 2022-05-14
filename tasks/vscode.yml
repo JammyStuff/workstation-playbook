@@ -4,12 +4,9 @@
     name: visual-studio-code
     state: present
 - name: Create code symlink
-  become: yes
   ansible.builtin.file:
     src: /Applications/Visual Studio Code.app/Contents/Resources/app/bin/code
     dest: /usr/local/bin/code
-    owner: root
-    group: wheel
     state: link
 - name: Install requirements for Ansible extension
   ansible.builtin.pip:

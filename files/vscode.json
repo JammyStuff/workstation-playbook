@@ -17,5 +17,7 @@
     "python.showStartPage": false,
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Winter is Coming (Dark Black - No Italics)",
-    "vim.easymotion": true
+    "vim.easymotion": true,
+    "git.allowForcePush": true,
+    "cSpell.language": "en-GB"
 }

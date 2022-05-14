@@ -63,6 +63,7 @@ homebrew_cask_apps:
   - alfred
   - amethyst
   - bettertouchtool
+  - dash
   - docker
   - element
   - figma
@@ -98,7 +99,7 @@ macos_defaults:
   - domain: com.apple.dock
     key: tilesize
     value: 48
-    type: int
+    type: float
   - domain: com.apple.dock
     key: autohide
     value: true
@@ -139,4 +140,6 @@ visual_studio_code_extensions:
   - pkief.material-icon-theme
   - vscodevim.vim
   - redhat.ansible
-  - matklad.rust-analyzer
+  - rust-lang.rust-analyzer
+  - stkb.rewrap
+  - streetsidesoftware.code-spell-checker
