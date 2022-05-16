@@ -78,11 +78,13 @@ homebrew_cask_apps:
 homebrew_installed_packages:
   - ffmpeg
   - youtube-dl
+  - hashicorp/tap/terraform
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
   - homebrew/cask-fonts
   - homebrew/cask-versions
+  - hashicorp/tap
 macos_defaults:
   - domain: NSGlobalDomain
     key: NSDocumentSaveNewDocumentsToCloud
